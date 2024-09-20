@@ -134,5 +134,6 @@ colorized_echo green "The panel is available at https://${DOMAIN}:${HTTP_PORT}/d
 echo -e "###############################################"
 
 # Вывод username/password в файл info.txt в папке root
+INFO_FILE=/root/info.txt
 echo "Панель: https://${DOMAIN}:${HTTP_PORT}/dashboard" > "$INFO_FILE"
 echo "username: admin\npassword: ${ADMIN_PASS}" >> "$INFO_FILE"
